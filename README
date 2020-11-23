@@ -1,0 +1,11 @@
+Very basic simulator for UAS flight and monitoring by sensors, simulator generates warning messages and performs counter-UAS operations if needed
+
+Uas.h|cpp implements the UAS class
+
+Sensor.h|cpp implements a proximity sensor
+
+Simulator.h|cpp implements the simulator
+
+common.h has some constants that are needed by most of the code
+
+A simple makefile is provided
